@@ -9,7 +9,7 @@ internal class Program
         {
             Console.WriteLine("Input " + (1+i) + " number");
             array[i] = Convert.ToInt32(Console.ReadLine());
-        }
+        } 
         Console.WriteLine("Summ of even numbers: " + ds.GetSumEvenArrEl(array));
     }
 }
